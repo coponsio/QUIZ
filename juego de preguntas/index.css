@@ -1,0 +1,39 @@
+*{
+    transition: all 0.25s;
+
+}
+body{
+    margin:0;
+    padding:0;
+    background: steelblue;
+    background-image: url(https://i.ibb.co/rF1MZ02/c07799f621b0fe61bcf92e4744aa6a56.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: "100%";
+}
+#encabezado{
+    width: 80vw;
+    background-color:white ;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    min-height: 200px;
+    align-items: center;
+flex-direction: column;
+
+}
+.opcion{
+    width: 70vw;
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.opcion:hover
+{
+    background-color: gray;
+
+}
